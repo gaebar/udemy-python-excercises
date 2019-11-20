@@ -1,10 +1,8 @@
 from pytest import mark
 
-# using decorator
-
 @mark.smoke
 @mark.engine
-def test_engine_functions_as_expected():
+@mark.ui
+def test_can_navigate_to_engine_page(chrome_browser):
+    chrome_browser.get('https://www.artofmanliness.com/')
     assert True
-
-    
