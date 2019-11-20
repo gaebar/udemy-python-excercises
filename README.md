@@ -12,6 +12,6 @@ Exercises from the Udemy course: Elegant Automation Frameworks with Python and P
 
 ### Run PyTest
  
-``pytest -v (adding -v [verbose] give me more details)``
+``pytest -v``
 
 -v for verbose: allows showing more details during tests executions
