@@ -1,5 +1,4 @@
 from pytest import fixture
-
 from selenium import webdriver
 
 @fixture(scope='session')
